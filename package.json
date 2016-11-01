@@ -1,0 +1,24 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "description": "its a landing page for GO! Fetch",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NerdCats/landingpage.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "gofetch"
+  ],
+  "author": "rashedul islam riyad",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NerdCats/landingpage/issues"
+  },
+  "homepage": "https://github.com/NerdCats/landingpage#readme"
+}
