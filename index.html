@@ -22,10 +22,13 @@
 		<div id="header" class="row">
 			<img id="gofetch" src="/content/gofetch.png">
 			<h1 id="header-text">We are currently working on something  <br> awesome. Stay tuned!</h1>
-			<div id="email">
-				<input id="input-email" type="text" name="email" placeholder="Enter your email address">
-				<input id="submit-email" type="submit" name="submit" value="SUBMIT">
-			</div>
+			<form id="email" action="" method="post">
+				<input id="input-email" type="email" name="email" placeholder="Enter your email address" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address" required>
+				<input id="submit-email" type="submit" name="submit" value="Subscribe">
+			</form>
+		</div>
+		<div id="about-us">
+			
 		</div>
 		
 	</div>

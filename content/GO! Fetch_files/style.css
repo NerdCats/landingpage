@@ -1,6 +1,6 @@
 #header{
 	background-image: url("/content/background.jpg");
-    height: 800px;
+    height: 600px;
     background-size: 100% 120%;
     background-repeat: no-repeat;
 }
@@ -23,12 +23,11 @@
 	margin: auto;
 	display: block;
 	width: 30%;
-	margin-top: 5%;
 }
 
 #input-email {
 	font-size: 15px;
-    height: 61px;
+    height: 45px;
     padding: 12px 15px;
     background: rgba(0, 0, 0, 0.7);
     width: 70%;
@@ -39,15 +38,11 @@
 
 #submit-email {
     font-size: 15px;    
-    padding: 20px 20px;
-    background: #2196F3;
+    padding: 12px 12px;
+    background: rgba(12, 146, 229, 1);
     color: #fff;
     border: none;    
     width: 30%;
-}
-
-#submit-email:hover {
-	background: #0D47A1;
 }
 
 @media only screen and (max-width: 1200px) {
