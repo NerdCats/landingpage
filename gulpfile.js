@@ -12,9 +12,9 @@ var jsFilePaths = [
 	'node_modules/bootstrap/dist/js/bootstrap.js'
 ]
 
-var cssFilePaths = [
-	'node_modules/bootstrap/dist/css/bootstrap-theme.css',
-	'node_modules/bootstrap/dist/css/bootstrap.css'
+var cssFilePaths = [	
+	'node_modules/bootstrap/dist/css/bootstrap.css',
+	'css/style.css'
 ]
 
 gulp.task('clean', function (cb) {
