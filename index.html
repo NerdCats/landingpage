@@ -9,8 +9,10 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
     
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">    
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>GO! Fetch</title>
 
 
@@ -20,17 +22,59 @@
 <body>
 	<div class="container-fluid">
 		<div id="header" class="row">
-			<img id="gofetch" src="/content/gofetch.png">
-			<h1 id="header-text">We are currently working on something  <br> awesome. Stay tuned!</h1>
-			<form id="email" action="" method="post">
-				<input id="input-email" type="email" name="email" placeholder="Enter your email address" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address" required>
-				<input id="submit-email" type="submit" name="submit" value="Subscribe">
-			</form>
+			<div id="header-content">
+				<img id="gofetch" src="/content/gofetch.png">
+				<h1 class="header-text">We are currently working on something  <br> awesome. Stay tuned!</h1>
+				<form id="email" action="" method="post">
+					<input id="input-email" type="email" name="email" placeholder="Enter your email address" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address" required>
+					<input id="submit-email" type="submit" name="submit" value="Subscribe">
+				</form>
+			</div>
 		</div>
-		<div id="about-us">
-			
+		<div id="about-us" class="row">
+			<i id="people-icon" class="fa fa-group fa-5x"></i>
+			<h1 class="header-text">About Us.</h1>
+			<div id="about-us-text">GO! FETCH is Bangladesh’s premier delivery and logistics infrastructure. We partner businesses and enable them to deliver products to their customers – on demand, on time, every time. From food/beverage and e-commerce players to laundry services and pharmacies, we’re revolutionizing delivery solutions in Bangladesh. Whether first mile or last mile, our tech-led logistics platform will help you keep your business ahead.</div>
 		</div>
-		
+		<div id="contact" class="row">			
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="contact-content">
+					<span>
+						<i class="fa fa-home"></i>
+						<span>ADDRESS</span>
+					</span>
+					<div class="contact-content-div">
+						<p>House-28, Road-20<br>Banani, Dhaka</p>
+					</div>					
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="contact-content">
+					<span>
+						<i class="fa fa-phone"></i>
+						<span>CALL US AT</span>
+					</span>
+					<div class="contact-content-div">
+						<p>(880) 172 1130751</p>
+						<p>(880) 173 5952047</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="contact-content">
+					<span>
+						<i class="fa fa-envelope"></i>
+						<span>EMAIL</span>	
+					</span>	
+					<div class="contact-content-div">
+						<p>gofetch@gobd.co</p>	
+					</div>					
+				</div>
+			</div>			
+		</div>
+		<div id="footer" class="row">
+			© Copyright 2016 GObd
+		</div>
 	</div>
 </body>
 </html>

@@ -1,20 +1,26 @@
+html, body {	
+	font-family: 'Raleway', sans-serif !important;
+}
+
 #header{
 	background-image: url("/content/background.jpg");
     height: 800px;
-    background-size: 100% 120%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
+#header-content{
+	padding: 170px 0px;
+}
 
 #gofetch {
 	width: 140px;
 	margin: auto;
-	display: block;
-	margin-top: 10%;
+	display: block;	
 	margin-bottom: 4%;
 }
 
-#header-text {
+.header-text {
 	text-align: center;
 	color: white;
 }
@@ -47,7 +53,56 @@
 }
 
 #submit-email:hover {
-	background: #0D47A1;
+	background: #0d73c4;
+}
+
+
+#about-us{
+	background: #0d73c4;
+	padding: 40px 0px 60px 0px;
+}
+
+#people-icon{
+    color: white;
+    margin: auto;
+    display: block;
+    width: 75px;    
+}
+
+#about-us-text {
+	text-align: center;
+    color: white;
+    font-size: 1.4em;
+    width: 70%;
+    margin: auto;
+}
+
+#contact {
+	background: black;
+	color: white;
+	padding: 40px 0px;
+}
+
+.contact-content {
+    margin: auto;
+    display: block;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.contact-content-div {
+	margin-top: 10px;
+	font-weight: 200;
+	color: #ccc;
+}
+
+#footer {
+	background: #0d73c4;
+    text-align: center;
+    color: white;
+    height: 55px;
+    padding-top: 15px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -72,9 +127,16 @@
 
 @media only screen and (max-width: 768px) {
 	#header {		
-	    background-size: 100% 82%;	    
+	    background-size: 100% 100%;	    
 	}
 	#email {
 		width: 90%;
+	}
+	.contact-content {
+		margin-top: 20px;
+	}
+
+	#about-us-text{
+		font-size: 1em;
 	}
 }
