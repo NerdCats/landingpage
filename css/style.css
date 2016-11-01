@@ -1,0 +1,142 @@
+html, body {	
+	font-family: 'Raleway', sans-serif !important;
+}
+
+#header{
+	background-image: url("/content/background.jpg");
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#header-content{
+	padding: 170px 0px;
+}
+
+#gofetch {
+	width: 140px;
+	margin: auto;
+	display: block;	
+	margin-bottom: 4%;
+}
+
+.header-text {
+	text-align: center;
+	color: white;
+}
+
+#email {
+	margin: auto;
+	display: block;
+	width: 30%;
+	margin-top: 5%;
+}
+
+#input-email {
+	font-size: 15px;
+    height: 61px;
+    padding: 12px 15px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 70%;
+    float: left;    
+    border: 0;
+    color: #fff;
+}
+
+#submit-email {
+    font-size: 15px;    
+    padding: 20px 20px;
+    background: #2196F3;
+    color: #fff;
+    border: none;    
+    width: 30%;
+}
+
+#submit-email:hover {
+	background: #0d73c4;
+}
+
+
+#about-us{
+	background: #0d73c4;
+	padding: 40px 0px 60px 0px;
+}
+
+#people-icon{
+    color: white;
+    margin: auto;
+    display: block;
+    width: 75px;    
+}
+
+#about-us-text {
+	text-align: center;
+    color: white;
+    font-size: 1.4em;
+    width: 70%;
+    margin: auto;
+}
+
+#contact {
+	background: black;
+	color: white;
+	padding: 40px 0px;
+}
+
+.contact-content {
+    margin: auto;
+    display: block;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.contact-content-div {
+	margin-top: 10px;
+	font-weight: 200;
+	color: #ccc;
+}
+
+#footer {
+	background: #0d73c4;
+    text-align: center;
+    color: white;
+    height: 55px;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+	#email {
+		width: 40%;
+	}
+
+}
+
+@media only screen and (max-width: 980px) {
+	#header {
+	    height: 700px;
+	    background-size: 100% 100%;	    
+	}
+	#gofetch {
+		margin-top: 15%;
+	}
+	#email {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#header {		
+	    background-size: 100% 100%;	    
+	}
+	#email {
+		width: 90%;
+	}
+	.contact-content {
+		margin-top: 20px;
+	}
+
+	#about-us-text{
+		font-size: 1em;
+	}
+}
