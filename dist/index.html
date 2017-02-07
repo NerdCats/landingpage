@@ -70,7 +70,7 @@
 				<div class="contact-content">
 					<span>
 						<i class="fa fa-envelope"></i>
-						<span>EMAIL</span>	
+						<span>EMAIL</span>
 					</span>	
 					<div class="contact-content-div">
 						<p>fetch@gobd.co</p>	
@@ -96,7 +96,7 @@
 				window.location.reload();
 			};				
 
-			$.post('http://gobdsif.cloudapp.net/api/subscribe', { email: emailvalue } , function(data) {
+			$.post('http://127.0.0.1:8000/api/subscribe', { email: emailvalue } , function(data) {
 				document.getElementById("input-email").disabled = false;
 			    window.location.reload();
 			})
