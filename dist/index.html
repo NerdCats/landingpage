@@ -96,7 +96,7 @@
 				window.location.reload();
 			};				
 
-			$.post('http://127.0.0.1:8000/api/subscribe', { email: emailvalue } , function(data) {
+			$.post('http://gobdsif.cloudapp.net/api/subscribe', { email: emailvalue } , function(data) {
 				document.getElementById("input-email").disabled = false;
 			    window.location.reload();
 			})
